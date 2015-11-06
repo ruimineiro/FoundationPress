@@ -1,284 +1,306 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: foundationpress-libsass-template 5.4.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-13 17:56+0200\n"
-"PO-Revision-Date: 2015-05-09 19:23-0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: FoundationPress\n"
+"POT-Creation-Date: 2015-11-05 21:41+0000\n"
+"PO-Revision-Date: 2015-11-05 22:33+0000\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.7.6\n"
-"Language: pt_PT\n"
+"Language: pt\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: 404.php:8
+#: 404.php:17
 msgid "File Not Found"
-msgstr "O ficheiro não foi encontrado."
+msgstr "Ficheiro não encontrado"
 
-#: 404.php:12
+#: 404.php:21
 msgid ""
 "The page you are looking for might have been removed, had its name changed, "
 "or is temporarily unavailable."
 msgstr ""
-"A pagina que você esta a procura foi removida , alterou-se o nome , ou esta "
-"temporariamente indisponível. "
+"A página que procura foi removida, mudou de nome, ou está temporariamente "
+"indisponível."
 
-#: 404.php:14
+#: 404.php:23
 msgid "Please try the following:"
 msgstr "Por favor , experimente o seguinte:"
 
-#: 404.php:16
+#: 404.php:25
 msgid "Check your spelling"
 msgstr "Verifique a sua ortografia"
 
-#: 404.php:17
+#: 404.php:26
 #, php-format
 msgid "Return to the <a href=\"%s\">home page</a>"
-msgstr "Voltar para a <a href=\"%s\">pagina inicial</a>"
+msgstr "Voltar para à <a href=\\\"%s\\\">página inicial</a>"
 
-#: 404.php:18
+#: 404.php:27
 msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
 msgstr ""
-"Clique no botão <a href=\"javascript:history.back()\"> Voltar </a>  voltar"
+"Clique no botão <a href=\\\"javascript:history.back()\\\"> Voltar </a>"
 
-#. /previous pages when applicable
-#: archive.php:21 index.php:24 search.php:25
+#: archive.php:40 index.php:41 search.php:35
 msgid "&larr; Older posts"
-msgstr "&larr; Posts antigos"
+msgstr "&larr; Artigos antigos"
 
-#: archive.php:22 index.php:25 search.php:26
+#: archive.php:41 index.php:42 search.php:36
 msgid "Newer posts &rarr;"
-msgstr "Posts recentes &rarr;"
+msgstr "Artigos recentes &rarr;"
 
-#: comments.php:8
-#, php-format
-msgid "<cite class=\"fn\">%s</cite>"
-msgstr "<cite class=\"fn\">%s</cite>"
+#: comments.php:27
+msgid "Reply"
+msgstr "Resposta"
 
-#: comments.php:9
-#, php-format
-msgid "%1$s"
-msgstr "%1$s"
-
-#: comments.php:10
-msgid "(Edit)"
-msgstr "(Editar)"
-
-#: comments.php:16
+#: comments.php:36 library/foundation.php:156
 msgid "Your comment is awaiting moderation."
-msgstr "O seu comentário esta aguardar resposta."
+msgstr "O seu comentário está a aguardar moderação."
 
-#: comments.php:31
+#: comments.php:55
 msgid "Please do not load this page directly. Thanks!"
-msgstr "Por favor , não carregue esta pagina directamente,Obrigado!"
+msgstr "Por favor, não carregue esta página diretamente. Obrigado!"
 
-#: comments.php:36
+#: comments.php:60
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
-"Este post é protegido por uma password. Introduza a password para ver os "
-"comentários."
+"Este artigo é protegido por uma palavra-chave. Introduza a palavra-chave "
+"para ver os comentários."
 
-#: comments.php:46
-msgid "No Responses to"
-msgstr "Sem resposta para"
-
-#: comments.php:46
-msgid "One Response to"
-msgstr "Uma resposta para"
-
-#: comments.php:46
-msgid "% Responses to"
-msgstr "% Respostas para"
-
-#: comments.php:53
-msgid "&larr; Older comments"
-msgstr "&larr; Comentários antigos"
-
-#: comments.php:54
-msgid "Newer comments &rarr;"
-msgstr "Comentários mais recentes &rarr;"
-
-#: comments.php:61
+#: comments.php:73
 msgid "Leave a Reply"
-msgstr "Deixe uma Resposta"
+msgstr "Deixe uma resposta"
 
-#: comments.php:61
+#: comments.php:73
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr "Deixe uma Resposta para %s"
+msgstr "Deixe uma resposta para %s"
 
-#: comments.php:64
+#: comments.php:76
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
-"Você deve  <a href=\"%s\"> iniciar uma sessão </a> para poder comentar."
+"Terá que <a href=\\\"%s\\\"> iniciar uma sessão </a> para publicar um "
+"comentário."
 
-#: comments.php:68
+#: comments.php:80
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "Sessão iniciada como <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Sessão iniciada como <a href=\\\"%s/wp-admin/profile.php\\\">%s</a>."
 
-#: comments.php:68
+#: comments.php:80
 msgid "Log out of this account"
-msgstr "Desconecte-se  desta conta"
+msgstr "Terminar sessão desta conta"
 
-#: comments.php:68
+#: comments.php:80
 msgid "Log out &raquo;"
 msgstr "Terminar sessão &raquo;"
 
-#: comments.php:71
+#: comments.php:85
 msgid "Name"
 msgstr "Nome"
 
-#: comments.php:71 comments.php:75
+#: comments.php:85 comments.php:93
 msgid " (required)"
 msgstr "(necessário)"
 
-#: comments.php:75
+#: comments.php:93
 msgid "Email (will not be published)"
-msgstr "Email(não será publicado)"
+msgstr "Endereço eletrónico (não será publicado)"
 
-#: comments.php:79
+#: comments.php:101
 msgid "Website"
 msgstr "Website"
 
-#: comments.php:84
+#: comments.php:110
 msgid "Comment"
-msgstr "Comentário "
+msgstr "Comentário"
 
-#: comments.php:87
+#: comments.php:117
 msgid "You can use these tags:"
-msgstr "Você pode utilizar estas tags:"
+msgstr "Pode utilizar estas etiquetas"
 
-#: comments.php:88
+#: comments.php:123
 msgid "Submit Comment"
-msgstr "Publicar comentário"
+msgstr "Submeter comentário"
 
-#: content-none.php:11
+#: content-none.php:15
 msgid "Nothing Found"
 msgstr "Nada foi encontrado"
 
-#: content-none.php:17
+#: content-none.php:21
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-"Preparado para publicar o seu primeiro post?<a href=\"%1$s\">Comece aqui</"
-"a>."
+"Preparado para publicar o seu primeiro artigo?<a href=\\\"%1$s\\\">Comece "
+"aqui</a>."
 
-#: content-none.php:21
+#: content-none.php:25
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"Desculpa, mas nada correspondeu aos seus critérios de procura. Por favor "
+"Desculpe, mas nada correspondeu aos seus critérios de procura. Por favor "
 "volte a tentar com palavras-chave diferentes."
 
-#: content-none.php:26
+#: content-none.php:30
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Não conseguimos encontrar aquilo que pretende. Talvez uma procura poderá "
-"ajudar."
+"Não conseguimos encontrar o que pretende. Talvez uma procura possa ajudar."
 
-#. /archive/search.
-#. *
-#. * @subpackage FoundationPress
-#. * @since FoundationPress 1.0.0
-#.
-#: content.php:16
+#: content.php:20
 msgid "Continue reading..."
 msgstr "Continue lendo..."
 
-#: hero.php:40 kitchen-sink.php:739 page-full.php:19 page-sidebar-left.php:21
-#: page.php:18 single.php:27 woocommerce.php:18
-msgid "Pages:"
-msgstr "Paginas:"
+#: library/custom-nav.php:16
+msgid "Mobile Menu Settings"
+msgstr "Configuração da Navegação Móvel"
 
-#: library/entry-meta.php:4
+#: library/custom-nav.php:17
+msgid "Controls the mobile menu"
+msgstr "Controla a navegação móvel"
+
+#: library/custom-nav.php:22
+msgid "Mobile navigation layout"
+msgstr "Esquema de navegação móvel"
+
+#: library/custom-nav.php:29
+msgid "Mobile navigation position"
+msgstr "Posição da navegação móvel"
+
+#: library/custom-nav.php:38
+msgid "offcanvas"
+msgstr "móvel"
+
+#: library/custom-nav.php:46
+msgid "left"
+msgstr "esquerda"
+
+#: library/entry-meta.php:12
 #, php-format
 msgid "Posted on %s at %s."
 msgstr "Publicado em %s às  %s."
 
-#: library/entry-meta.php:5
+#: library/entry-meta.php:13
 msgid "Written by"
 msgstr "Escrito por"
 
-#: library/foundation.php:16
+#: library/foundation.php:25
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: library/foundation.php:17
+#: library/foundation.php:26
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: library/foundation.php:40
+#: library/foundation.php:54
 #, php-format
 msgid ""
 "Please assign a menu to the primary menu location under %1$s or %2$s the "
 "design."
 msgstr ""
-"Por favor escolha um menu  para  localização primaria do menu debaixo  %1$s "
-"ou %2$s do design."
+"Por favor atribua um menu à localização de menu primária em %1$s ou %2$s no "
+"desenho."
 
-#: library/foundation.php:41
+#: library/foundation.php:55
 #, php-format
 msgid "<a href=\"%s\">Menus</a>"
 msgstr "<a href=\"%s\">Menus</a>"
 
-#: library/foundation.php:44
+#: library/foundation.php:58
 #, php-format
 msgid "<a href=\"%s\">Customize</a>"
-msgstr "<a href=\"%s\">Personalize</a>"
+msgstr "<a href=\\\"%s\\\">Personalize</a>"
 
-#: library/widget-areas.php:6
-msgid "Sidebar widgets"
-msgstr "widgets da barra lateral"
+#: library/foundation.php:106
+msgid "No Responses to"
+msgstr "Sem respostas a"
 
-#: library/widget-areas.php:7
-msgid "Drag widgets to this sidebar container."
-msgstr "Arraste widgets para o área da barra lateral"
+#: library/foundation.php:106
+msgid "One Response to"
+msgstr "Uma resposta a"
 
-#: library/widget-areas.php:16
-msgid "Footer widgets"
-msgstr "widgets do rodapé "
+#: library/foundation.php:106
+msgid "% Responses to"
+msgstr "% Respostas a"
 
-#: library/widget-areas.php:17
-msgid "Drag widgets to this footer container"
-msgstr "Arraste widgets para o área do rodapé"
-
-#: node_modules/grunt-pot/test/fixtures/some-file.php:3
-msgid "I'm a translatable string."
-msgstr "Eu sou uma frase traduzível. "
-
-#: node_modules/grunt-pot/test/fixtures/some-other-file.php:4
-msgid "Me too"
-msgstr "Eu também "
-
-#: node_modules/grunt-pot/test/fixtures/some-other-file.php:7
+#: library/foundation.php:146
 #, php-format
-msgid "I have %d apple"
-msgid_plural "I have %d apples"
-msgstr[0] "Eu tenho %d maçã"
-msgstr[1] "Eu tenho %d maçãs "
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
 
-#. / TRANSLATORS: This should be translated as a shorthand for YEAR-MONTH-DAY using 4, 2 and 2 digits.
-#: node_modules/grunt-pot/test/fixtures/some-other-file.php:16
-msgid "yyyy-mm-dd"
-msgstr "aaaa-mm-dd"
+#: library/foundation.php:147
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
 
-#: search.php:7
+#: library/navigation.php:240
+msgid "Page"
+msgstr "Página"
+
+#: library/offcanvas-walker.php:46
+msgid "Back"
+msgstr "Voltar"
+
+#: library/widget-areas.php:14
+msgid "Sidebar widgets"
+msgstr "Widgets da barra lateral"
+
+#: library/widget-areas.php:15
+msgid "Drag widgets to this sidebar container."
+msgstr "Arraste widgets para a área da barra lateral."
+
+#: library/widget-areas.php:24
+msgid "Footer widgets"
+msgstr "Widgets do rodapé"
+
+#: library/widget-areas.php:25
+msgid "Drag widgets to this footer container"
+msgstr "Arraste widgets para a área do rodapé"
+
+#: page.php:32 single.php:37 templates/front.php:46
+#: templates/kitchen-sink.php:730 templates/page-full.php:22
+#: templates/page-sidebar-left.php:24 woocommerce.php:27
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: search.php:17
 msgid "Search Results for"
 msgstr "Resultados da pesquisa por"
 
-#: searchform.php:6 searchform.php:10
+#: searchform.php:15 searchform.php:19
 msgid "Search"
-msgstr "Pesquisar"
+msgstr "Pesquisa"
+
+#. Theme Name of the plugin/theme
+msgid "FoundationPress"
+msgstr "FoundationPress"
+
+#. Theme URI of the plugin/theme
+msgid "http://foundationpress.olefredrik.com"
+msgstr "http://foundationpress.olefredrik.com"
+
+#. Description of the plugin/theme
+msgid ""
+"FoundationPress is a WordPress starter theme based on Foundation 5 by Zurb"
+msgstr "FoundationPress é um tema WordPress baseado no Foundation 5 da Zurb"
+
+#. Author of the plugin/theme
+msgid "Ole Fredrik Lie"
+msgstr "Ole Fredrik Lie"
+
+#. Author URI of the plugin/theme
+msgid "http://olefredrik.com/"
+msgstr "http://olefredrik.com/"
